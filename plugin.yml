@@ -1,16 +1,14 @@
-name: CopySnail
-main: LunarMoon72\CopySnail\Main
-author: LunarMoon72
-version: 0.0.1
+name: Plugin#1
+version: 1.0.0
 api: 3.21.1
+main: LunarMoon72\Plugin#1\Main
+author: LunarMoon72
+mcpe-protocal: 448
 
 commands:
-  ceedit:
-   description: Cool Command
-   aliases: Cool
-   permission: copysnail.cmd
-   
-permissions:
-  copysnail.cmd:
-    description: Cool Perm
-    default: op
+  food:
+    description: Give yourself Food!
+  heal:
+    description: Heal yourself!
+  testmessage:
+    description: test message
